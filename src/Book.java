@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class Book {
 
-    private static String title;
+    private String title;
     private float price;
     private String ISBN;
     private int pages;
@@ -45,6 +45,10 @@ public class Book {
         return ISBN;
     }
 
+    public String toString(){
+        return ("Title = "+ title+ "\n Price ="+ price+"\n ISBN ="+ISBN+"PAGES = "+pages);
+    }
+
     public Book(){
         this.title = "No Title";
         this.price = 0.00f;
@@ -59,8 +63,6 @@ public class Book {
         setPages(pages);
     }
 
-    public static void BookTest(){
-
-    }
+   
 
 }
