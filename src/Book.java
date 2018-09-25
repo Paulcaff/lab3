@@ -1,6 +1,8 @@
+import javax.swing.*;
+
 public class Book {
 
-    private String title;
+    private static String title;
     private float price;
     private String ISBN;
     private int pages;
@@ -8,6 +10,7 @@ public class Book {
     public static void main(String[] args) {
 
     }
+
 
 
     public void setTitle(String title) {
@@ -45,7 +48,7 @@ public class Book {
     public Book(){
         this.title = "No Title";
         this.price = 0.00f;
-        this.ISBN = "No ISBN "
+        this.ISBN = "No ISBN ";
         this.pages = 0;
             }
 
@@ -55,4 +58,9 @@ public class Book {
         setISBN(ISBN);
         setPages(pages);
     }
+
+    public static void BookTest(){
+
+    }
+
 }
