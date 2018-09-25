@@ -46,7 +46,7 @@ public class Book {
     }
 
     public String toString(){
-        return ("Title = "+ title+ "\n Price ="+ price+"\n ISBN ="+ISBN+"PAGES = "+pages);
+        return ("Title = "+ title+ "\n Price ="+ price+"\n ISBN ="+ISBN+"\nPAGES = "+pages);
     }
 
     public Book(){
@@ -63,6 +63,6 @@ public class Book {
         setPages(pages);
     }
 
-   
+
 
 }
